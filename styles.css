@@ -462,9 +462,11 @@ ul {
 }
 
 .hero-title {
-  font-size: 3.6rem;
-  font-weight: 800;
-  line-height: 1.12;
+  font-family: var(--font-body);
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: -0.025em;
   margin-bottom: 1.5rem;
   color: #ffffff;
 }
