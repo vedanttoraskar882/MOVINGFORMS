@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MovingForms | Combat-Choreography Productions & Corporate Resilience Training</title>
+  <meta name="description" content="MovingForm combines professional choreography and martial arts discipline to create extraordinary combat-dance productions and transformational corporate resilience programmes.">
+  
+  <!-- Completely Blank Favicon as required -->
+  <link rel="icon" href="data:,">
+
+  <!-- Google Fonts: Syne (theatrical & modern display) & Plus Jakarta Sans (executive UK corporate) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Syne:wght@500;600;700;800&family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="ambient-glow glow-top" aria-hidden="true"></div>
+  <div class="ambient-glow glow-middle" aria-hidden="true"></div>
+  <div class="ambient-glow glow-bottom" aria-hidden="true"></div>
+  <canvas id="ambient-canvas" aria-hidden="true"></canvas>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="navbar">
+    <div class="container header-container">
+      <a href="#home" class="brand-logo" aria-label="MovingForms Home">
+        <div class="brand-text">
+          <span class="brand-name">MovingForms</span>
+          <span class="brand-tagline">London &bull; UK</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-menu" id="navMenu" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#platform" class="nav-link">Platform</a></li>
+          <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+          <li><a href="#pricing" class="nav-link">Market Pricing</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Button & Mobile Toggle -->
+      <div class="header-actions">
+        <button type="button" class="btn btn-primary btn-sm open-pilot-modal" id="headerCtaBtn">
+          <span>Request a Pilot</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </button>
+
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ====================================================
+         1. HOME SECTION
+         ==================================================== -->
+    <section class="section hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-wrapper">
+            <span class="hero-badge">
+              <span class="badge-dot"></span>
+              Founder-Led UK Venture &bull; Combat-Choreography &amp; Resilience
+            </span>
+          </div>
+
+          <h1 class="hero-title">
+            Where Martial Arts Discipline Meets <span class="gradient-text">Professional Performance</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            MovingForm creates extraordinary combat-dance productions and transformational corporate resilience programmes through a unique methodology combining martial arts, choreography and controlled-pressure learning.
+          </p>
+
+          <div class="hero-cta-group">
+            <button type="button" class="btn btn-primary open-pilot-modal">
+              <span>Request a Pilot</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+
+            <a href="#platform" class="btn btn-secondary">
+              <span>Explore The MovingForm Method</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Dual division pill indicators -->
+          <div class="hero-division-pills">
+            <div class="division-pill">
+              <span class="pill-icon">✦</span>
+              <div class="pill-text">
+                <strong>MovingForm Productions</strong>
+                <span>High-Impact Theatrical &amp; Festival Art</span>
+              </div>
+            </div>
+            <div class="division-divider" aria-hidden="true"></div>
+            <div class="division-pill">
+              <span class="pill-icon">⬡</span>
+              <div class="pill-text">
+                <strong>MovingForm Works</strong>
+                <span>Corporate Resilience &amp; Team Performance</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Showcase Grid -->
+        <div class="hero-visual">
+          <div class="visual-mosaic-container">
+            <div class="mosaic-card card-arts" data-tilt>
+              <div class="mosaic-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"></path>
+                  <circle cx="12" cy="13" r="3"></circle>
+                </svg>
+              </div>
+              <div class="mosaic-content">
+                <span class="mosaic-tag">Discipline</span>
+                <h3>Martial Arts Movement</h3>
+                <p>Precision, spatial mastery, and razor-sharp reflexes anchored in 4th Dan Shotokan mastery.</p>
+              </div>
+              <div class="mosaic-gradient-layer"></div>
+            </div>
+
+            <div class="mosaic-card card-dance" data-tilt>
+              <div class="mosaic-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <path d="M9 18V5l12-2v13"></path>
+                  <circle cx="6" cy="18" r="3"></circle>
+                  <circle cx="18" cy="16" r="3"></circle>
+                </svg>
+              </div>
+              <div class="mosaic-content">
+                <span class="mosaic-tag">Expression</span>
+                <h3>Dance Choreography</h3>
+                <p>Expressive contemporary phrasing merged with dynamic rhythm and narrative storytelling.</p>
+              </div>
+              <div class="mosaic-gradient-layer"></div>
+            </div>
+
+            <div class="mosaic-card card-theatre" data-tilt>
+              <div class="mosaic-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+              </div>
+              <div class="mosaic-content">
+                <span class="mosaic-tag">Spectacle</span>
+                <h3>Live Performance</h3>
+                <p>Stunning combat-dance theatrical productions for international theatres and festivals.</p>
+              </div>
+              <div class="mosaic-gradient-layer"></div>
+            </div>
+
+            <div class="mosaic-card card-corporate" data-tilt>
+              <div class="mosaic-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <div class="mosaic-content">
+                <span class="mosaic-tag">Execution</span>
+                <h3>Corporate Teamwork</h3>
+                <p>Controlled-pressure resilience workshops building unshakeable executive trust.</p>
+              </div>
+              <div class="mosaic-gradient-layer"></div>
+            </div>
+
+            <!-- Central insignia badge -->
+            <div class="central-insignia" aria-hidden="true">
+              <span class="core-label">THE METHOD</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================
+         2. ABOUT SECTION
+         ==================================================== -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker">Company &bull; Founder Story</span>
+          <h2 class="section-title">Bridging Elite Combat Discipline &amp; Theatrical Artistry</h2>
+          <p class="section-subtitle">
+            MovingForm was created by Harshil Chauhan by combining two specialised disciplines: 
+            <strong>Professional choreography and elite martial arts.</strong>
+          </p>
+        </div>
+
+        <!-- The Two Divisions Overview -->
+        <div class="divisions-grid">
+          <!-- Division 1 -->
+          <div class="glass-panel division-card">
+            <div class="division-badge">Creative Performance Division</div>
+            <h3 class="division-title">MovingForm Productions</h3>
+            <p class="division-desc">
+              A creative performance division delivering high-impact theatrical experiences, original touring productions, and bespoke brand choreography.
+            </p>
+            <div class="division-features">
+              <span class="features-label">Performance Offerings:</span>
+              <ul class="styled-list">
+                <li>Original touring productions</li>
+                <li>Combat-dance theatrical performances</li>
+                <li>Corporate brand activation performances</li>
+                <li>Bespoke choreography</li>
+                <li>Workshops and masterclasses</li>
+                <li>Choreography licensing</li>
+              </ul>
+            </div>
+            <div class="style-fusion-box">
+              <span class="style-fusion-label">Performance Style Combines:</span>
+              <div class="style-tags">
+                <span class="tag">Bollywood Dance</span>
+                <span class="tag">Contemporary Dance</span>
+                <span class="tag">Karate-Based Combat Choreography</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Division 2 -->
+          <div class="glass-panel division-card">
+            <div class="division-badge">Corporate Learning Division</div>
+            <h3 class="division-title">MovingForm Works</h3>
+            <p class="division-desc">
+              A corporate learning division delivering movement-based resilience, team cohesion, and executive leadership development.
+            </p>
+            <div class="division-features">
+              <span class="features-label">Corporate Programmes:</span>
+              <ul class="styled-list">
+                <li>Corporate resilience programmes</li>
+                <li>Team cohesion experiences</li>
+                <li>Leadership development</li>
+                <li>Movement-based learning</li>
+                <li>Controlled-pressure simulation exercises</li>
+              </ul>
+            </div>
+            <div class="method-callout-box">
+              <div class="callout-icon">⚡</div>
+              <div class="callout-text">
+                <strong>One Shared Engine:</strong>
+                <p>Both divisions operate through the same proprietary MovingForm Method, ensuring identical standards of rigorous discipline, psychological safety, and transformative physical execution.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Founder Profile Section -->
+        <div class="founder-card glass-panel">
+          <div class="founder-card-header">
+            <div class="founder-identity">
+              <span class="badge-mini">Founder Profile</span>
+              <h3 class="founder-name">Harshil Chauhan</h3>
+              <p class="founder-role">Founder, Artistic Director &amp; Resilience Lead</p>
+              <div class="founder-location">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span>London, United Kingdom</span>
+              </div>
+            </div>
+            <div class="founder-quick-badges">
+              <span class="founder-rank-tag">4th Dan Shotokan Karate</span>
+              <span class="founder-rank-tag">Artistic Director</span>
+            </div>
+          </div>
+
+          <div class="founder-bio-details">
+            <div class="bio-header">
+              <h4 class="bio-title">Mastery Across Dance &amp; World-Class Combat</h4>
+            </div>
+
+              <!-- Background bullet grid -->
+              <div class="bio-section">
+                <h4 class="bio-subtitle">Athletic &amp; Choreographic Background</h4>
+                <div class="stats-pills-grid">
+                  <div class="stat-pill">
+                    <span class="stat-value">Since 2009</span>
+                    <span class="stat-label">Bollywood &amp; Contemporary Dance Performer</span>
+                  </div>
+                  <div class="stat-pill">
+                    <span class="stat-value">4th Dan</span>
+                    <span class="stat-label">Black Belt in Shotokan Karate</span>
+                  </div>
+                  <div class="stat-pill highlight-gold">
+                    <span class="stat-value">Silver Medal</span>
+                    <span class="stat-label">2023 World Championship</span>
+                  </div>
+                  <div class="stat-pill highlight-gold">
+                    <span class="stat-value">Titleholder</span>
+                    <span class="stat-label">European Champion</span>
+                  </div>
+                  <div class="stat-pill">
+                    <span class="stat-value">6 Titles</span>
+                    <span class="stat-label">England National Championship titles</span>
+                  </div>
+                  <div class="stat-pill">
+                    <span class="stat-value">3 Titles</span>
+                    <span class="stat-label">India National Championship titles</span>
+                  </div>
+                </div>
+                <ul class="styled-list mt-3" style="margin-top: 1.25rem;">
+                  <li>Professional Bollywood and contemporary dance performer since 2009.</li>
+                  <li>Professional choreographer.</li>
+                  <li>4th Dan Black Belt in Shotokan Karate.</li>
+                  <li>Silver Medal at 2023 World Championship.</li>
+                  <li>European Champion.</li>
+                  <li>Six England National Championship titles.</li>
+                  <li>Three India National Championship titles.</li>
+                </ul>
+              </div>
+
+              <!-- Education Grid -->
+              <div class="bio-section">
+                <h4 class="bio-subtitle">Academic Credentials</h4>
+                <ul class="education-list">
+                  <li>
+                    <span class="degree-icon">🎓</span>
+                    <div>
+                      <strong>MA Arts Management</strong>
+                      <span>Middlesex University, London</span>
+                    </div>
+                  </li>
+                  <li>
+                    <span class="degree-icon">🎓</span>
+                    <div>
+                      <strong>MA Dance Performance and Choreography</strong>
+                      <span>University of Bedfordshire</span>
+                    </div>
+                  </li>
+                  <li>
+                    <span class="degree-icon">🎓</span>
+                    <div>
+                      <strong>BA (Hons) Dance Performance</strong>
+                      <span>Middlesex University, London</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Entrepreneurial Background -->
+              <div class="bio-section entrepreneurial-box">
+                <h4 class="bio-subtitle">Entrepreneurial Background &bull; Winners Studio</h4>
+                <p>
+                  As Founder &amp; Director of <strong>Winners Studio</strong> (Vadodara, India), Harshil built an institution renowned for delivering:
+                </p>
+                <div class="winners-tags">
+                  <span>Martial arts training</span>
+                  <span>Performing arts education</span>
+                  <span>Structured development programmes</span>
+                  <span>Professional pathways for students</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- ====================================================
+         3. PLATFORM SECTION
+         ==================================================== -->
+    <section class="section platform-section" id="platform">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker">Proprietary Architecture</span>
+          <h2 class="section-title">The MovingForm Method</h2>
+          <p class="section-subtitle">
+            A single proprietary methodology engineered to unlock high-impact stage performance and transformational corporate resilience.
+          </p>
+        </div>
+
+        <!-- Three Feature Cards -->
+        <div class="method-cards-grid">
+          <!-- CARD 1 -->
+          <div class="glass-panel method-feature-card">
+            <div class="feature-num">01</div>
+            <div class="feature-icon-box">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Combat-Dance Movement Vocabulary</h3>
+            <p class="feature-desc">
+              A structured library combining martial arts movements and professional choreography to create unique performances and learning experiences.
+            </p>
+            <div class="feature-highlights">
+              <span>Dynamic Stances</span>
+              <span>Combat Sequencing</span>
+              <span>Spatial Rhythm</span>
+            </div>
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="glass-panel method-feature-card">
+            <div class="feature-num">02</div>
+            <div class="feature-icon-box">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                <path d="m9 12 2 2 4-4"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Dual-Discipline Safety Framework</h3>
+            <p class="feature-desc">
+              A safety and rehearsal process combining professional dance standards with martial arts discipline before every performance and programme.
+            </p>
+            <div class="feature-highlights">
+              <span>Biomechanical Safety</span>
+              <span>Rehearsal Protocol</span>
+              <span>Risk Elimination</span>
+            </div>
+          </div>
+
+          <!-- CARD 3 -->
+          <div class="glass-panel method-feature-card">
+            <div class="feature-num">03</div>
+            <div class="feature-icon-box">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+              </svg>
+            </div>
+            <h3 class="feature-title">Graded Progression System</h3>
+            <p class="feature-desc">
+              A controlled-pressure learning approach inspired by martial arts progression methods to develop confidence, resilience and teamwork.
+            </p>
+            <div class="feature-highlights">
+              <span>Controlled Stress</span>
+              <span>Tiered Confidence</span>
+              <span>Team Synchronization</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Two Division Cards -->
+        <div class="platform-divisions-wrapper">
+          <div class="platform-divisions-header text-center">
+            <h3 class="sub-heading">Commercial Application Across Two Divisions</h3>
+            <p class="sub-text">Converting the MovingForm Method into focused creative and corporate execution.</p>
+          </div>
+
+          <div class="division-cards-grid">
+            <!-- MOVINGFORM PRODUCTIONS -->
+            <div class="glass-panel division-focus-card">
+              <div class="focus-card-header">
+                <div class="focus-badge">Artistic &bull; Cultural</div>
+                <h3 class="focus-title">MOVINGFORM PRODUCTIONS</h3>
+              </div>
+              <div class="focus-body">
+                <h4 class="focus-subtitle">Primary Focus:</h4>
+                <ul class="focus-list">
+                  <li>
+                    <span class="bullet-dot"></span>
+                    <span><strong>Theatre productions</strong> — Large-scale combat-choreography stage narratives.</span>
+                  </li>
+                  <li>
+                    <span class="bullet-dot"></span>
+                    <span><strong>Cultural festivals</strong> — Dynamic festival headliners and public showcases.</span>
+                  </li>
+                  <li>
+                    <span class="bullet-dot"></span>
+                    <span><strong>Corporate events</strong> — Opening keynotes and showstopper stage moments.</span>
+                  </li>
+                  <li>
+                    <span class="bullet-dot"></span>
+                    <span><strong>Brand activations</strong> — Visceral, high-energy live campaign launches.</span>
+                  </li>
+                  <li>
+                    <span class="bullet-dot"></span>
+                    <span><strong>Workshops</strong> — Masterclasses for aspiring dancers, actors and athletes.</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- MOVINGFORM WORKS -->
+            <div class="glass-panel division-focus-card">
+              <div class="focus-card-header">
+                <div class="focus-badge highlight-blue">Corporate &bull; Executive</div>
+                <h3 class="focus-title">MOVINGFORM WORKS</h3>
+              </div>
+              <div class="focus-body">
+                <h4 class="focus-subtitle">Primary Focus:</h4>
+                <ul class="focus-list">
+                  <li>
+                    <span class="bullet-dot"></span>
+                    <span><strong>Corporate resilience</strong> — Mental fortitude forged under physical discipline.</span>
+                  </li>
+                  <li>
+                    <span class="bullet-dot"></span>
+                    <span><strong>Team building</strong> — Deep psychological trust through synchronized kinetics.</span>
+                  </li>
+                  <li>
+                    <span class="bullet-dot"></span>
+                    <span><strong>Leadership programmes</strong> — Decisive action under intense, dynamic environments.</span>
+                  </li>
+                  <li>
+                    <span class="bullet-dot"></span>
+                    <span><strong>Workplace performance</strong> — Sustainable stamina, poise and stress reduction.</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================
+         4. HOW IT WORKS SECTION
+         ==================================================== -->
+    <section class="section how-it-works-section" id="how-it-works">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker">Delivery Framework</span>
+          <h2 class="section-title">The 6-Stage Engagement Workflow</h2>
+          <p class="section-subtitle">
+            An animated, rigorous workflow engineered to ensure flawless theatrical delivery and measurable corporate impact.
+          </p>
+        </div>
+
+        <div class="timeline-container">
+          <!-- Step 1 -->
+          <div class="timeline-item" data-step="1">
+            <div class="timeline-marker">
+              <span class="step-number">01</span>
+              <div class="step-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+              </div>
+            </div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-step-badge">Phase 1</div>
+              <h3 class="timeline-title">Discovery</h3>
+              <p class="timeline-intro">Comprehensive initial consultation to establish mission parameters.</p>
+              <div class="timeline-details">
+                <span class="details-label">Understand:</span>
+                <ul class="check-list">
+                  <li>Client requirements</li>
+                  <li>Event objectives</li>
+                  <li>Team challenges</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="timeline-item" data-step="2">
+            <div class="timeline-marker">
+              <span class="step-number">02</span>
+              <div class="step-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 20h9"></path>
+                  <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-step-badge">Phase 2</div>
+              <h3 class="timeline-title">Design</h3>
+              <p class="timeline-intro">Bespoke creation tailored to creative or corporate objectives.</p>
+              <div class="timeline-details split-branches">
+                <div class="branch-box">
+                  <span class="branch-title">For Productions:</span>
+                  <p>Create bespoke choreography.</p>
+                </div>
+                <div class="branch-box">
+                  <span class="branch-title">For Works:</span>
+                  <p>Create custom resilience curriculum.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="timeline-item" data-step="3">
+            <div class="timeline-marker">
+              <span class="step-number">03</span>
+              <div class="step-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-step-badge">Phase 3</div>
+              <h3 class="timeline-title">Safety Rehearsal</h3>
+              <p class="timeline-intro">Rigorous pre-execution calibration combining martial arts safety with stage precision.</p>
+              <div class="timeline-details">
+                <span class="details-label">Validate:</span>
+                <ul class="check-list">
+                  <li>Movement quality</li>
+                  <li>Safety standards</li>
+                  <li>Delivery readiness</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="timeline-item" data-step="4">
+            <div class="timeline-marker">
+              <span class="step-number">04</span>
+              <div class="step-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                </svg>
+              </div>
+            </div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-step-badge">Phase 4</div>
+              <h3 class="timeline-title">Delivery</h3>
+              <p class="timeline-intro">High-impact physical execution led by elite performers and certified instructors.</p>
+              <div class="timeline-details">
+                <span class="details-label">Deliver:</span>
+                <ul class="check-list">
+                  <li>Live performances</li>
+                  <li>Corporate programmes</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="timeline-item" data-step="5">
+            <div class="timeline-marker">
+              <span class="step-number">05</span>
+              <div class="step-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="18" y1="20" x2="18" y2="10"></line>
+                  <line x1="12" y1="20" x2="12" y2="4"></line>
+                  <line x1="6" y1="20" x2="6" y2="14"></line>
+                </svg>
+              </div>
+            </div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-step-badge">Phase 5</div>
+              <h3 class="timeline-title">Tracking &amp; Reporting</h3>
+              <p class="timeline-intro">Comprehensive data capture for archival and corporate HR analytics.</p>
+              <div class="timeline-details">
+                <span class="details-label">Capture:</span>
+                <ul class="check-list">
+                  <li>Performance archive</li>
+                  <li>Participant progress</li>
+                  <li>HR impact reporting</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 6 -->
+          <div class="timeline-item" data-step="6">
+            <div class="timeline-marker">
+              <span class="step-number">06</span>
+              <div class="step-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-step-badge">Phase 6</div>
+              <h3 class="timeline-title">Reinforcement</h3>
+              <p class="timeline-intro">Ongoing progression, sustainable capability transfer, and enduring partnership.</p>
+              <div class="timeline-details">
+                <span class="details-label">Develop:</span>
+                <ul class="check-list">
+                  <li>Repeat engagements</li>
+                  <li>Long-term relationships</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================
+         5. MARKET PRICING SECTION
+         ==================================================== -->
+    <section class="section pricing-section" id="pricing">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker">Engagement Models</span>
+          <h2 class="section-title">Market Pricing</h2>
+          <p class="section-subtitle">
+            All engagements are scoped to the exact scale, audience size, and performance specifications of each client.
+          </p>
+        </div>
+
+        <div class="pricing-cards-grid">
+          <!-- CARD 1 -->
+          <div class="glass-panel pricing-card">
+            <div class="pricing-tier-tag">Corporate Showcase</div>
+            <h3 class="pricing-title">Corporate Performance Experiences</h3>
+            <div class="pricing-rate-box">
+              <span class="pricing-amount">Custom Pricing</span>
+              <span class="pricing-subtext">Tailored to event scale &amp; venue</span>
+            </div>
+            <div class="pricing-divider"></div>
+            <div class="pricing-includes">
+              <span class="includes-title">Includes:</span>
+              <ul class="pricing-checklist">
+                <li>Corporate brand activation performances</li>
+                <li>Conference performances</li>
+                <li>Bespoke combat-dance experiences</li>
+                <li>Event choreography</li>
+              </ul>
+            </div>
+            <button type="button" class="btn btn-secondary pricing-btn open-pilot-modal" data-package="Corporate Performance Experiences">
+              Request a Bespoke Proposal
+            </button>
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="glass-panel pricing-card highlight-card">
+            <div class="card-glow-badge">Theatrical</div>
+            <div class="pricing-tier-tag">Touring &amp; Stage</div>
+            <h3 class="pricing-title">Theatre &amp; Festival Productions</h3>
+            <div class="pricing-rate-box">
+              <span class="pricing-amount">Custom Pricing</span>
+              <span class="pricing-subtext">Per production season or festival booking</span>
+            </div>
+            <div class="pricing-divider"></div>
+            <div class="pricing-includes">
+              <span class="includes-title">Includes:</span>
+              <ul class="pricing-checklist">
+                <li>Touring productions</li>
+                <li>Cultural festival performances</li>
+                <li>Production bookings</li>
+              </ul>
+            </div>
+            <button type="button" class="btn btn-primary pricing-btn open-pilot-modal" data-package="Theatre & Festival Productions">
+              Request a Bespoke Proposal
+            </button>
+          </div>
+
+          <!-- CARD 3 -->
+          <div class="glass-panel pricing-card">
+            <div class="pricing-tier-tag">Executive &bull; HR</div>
+            <h3 class="pricing-title">Corporate Resilience Programmes</h3>
+            <div class="pricing-rate-box">
+              <span class="pricing-amount">Custom Pricing</span>
+              <span class="pricing-subtext">Cohort-based learning modules</span>
+            </div>
+            <div class="pricing-divider"></div>
+            <div class="pricing-includes">
+              <span class="includes-title">Includes:</span>
+              <ul class="pricing-checklist">
+                <li>Multi-session resilience curriculum</li>
+                <li>Team cohesion exercises</li>
+                <li>Controlled-pressure simulations</li>
+                <li>Leadership development</li>
+              </ul>
+            </div>
+            <button type="button" class="btn btn-secondary pricing-btn open-pilot-modal" data-package="Corporate Resilience Programmes">
+              Request a Bespoke Proposal
+            </button>
+          </div>
+
+          <!-- CARD 4 -->
+          <div class="glass-panel pricing-card">
+            <div class="pricing-tier-tag">Education &bull; Rights</div>
+            <h3 class="pricing-title">Workshops &amp; Licensing</h3>
+            <div class="pricing-rate-box">
+              <span class="pricing-amount">Custom Pricing</span>
+              <span class="pricing-subtext">Institutional or masterclass license</span>
+            </div>
+            <div class="pricing-divider"></div>
+            <div class="pricing-includes">
+              <span class="includes-title">Includes:</span>
+              <ul class="pricing-checklist">
+                <li>Combat-dance workshops</li>
+                <li>Masterclasses</li>
+                <li>Choreography licensing</li>
+                <li>Facilitator training</li>
+              </ul>
+            </div>
+            <button type="button" class="btn btn-secondary pricing-btn open-pilot-modal" data-package="Workshops & Licensing">
+              Request a Bespoke Proposal
+            </button>
+          </div>
+        </div>
+
+        <div class="pricing-cta-bottom text-center">
+          <p class="pricing-cta-subtext">Need a custom hybrid arrangement for a UK or international tour?</p>
+          <button type="button" class="btn btn-primary open-pilot-modal">
+            <span>Request a Bespoke Proposal</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================
+         PILOT FORM EMBED SECTION (DIRECT LOCALSTORAGE INTEGRATION)
+         ==================================================== -->
+    <section class="section pilot-section" id="pilot">
+      <div class="container pilot-container">
+        <div class="pilot-layout glass-panel">
+          <div class="pilot-intro">
+            <span class="section-kicker">Direct Application</span>
+            <h2 class="pilot-title">Request a Pilot</h2>
+            <p class="pilot-desc">
+              Experience the MovingForm Method firsthand. Submit your details below to schedule an exploratory discussion or custom pilot demonstration with founder Harshil Chauhan.
+            </p>
+
+            <div class="pilot-reassurance-list">
+              <div class="reassurance-item">
+                <span class="reassurance-icon">✓</span>
+                <div>
+                  <strong>Founder-Led Assessment</strong>
+                  <span>Every pilot request is reviewed directly by our leadership team.</span>
+                </div>
+              </div>
+              <div class="reassurance-item">
+                <span class="reassurance-icon">✓</span>
+                <div>
+                  <strong>Confidential &amp; Tailored</strong>
+                  <span>Programmes calibrated to your organisation's precise risk, wellness, or artistic brief.</span>
+                </div>
+              </div>
+              <div class="reassurance-item">
+                <span class="reassurance-icon">✓</span>
+                <div>
+                  <strong>Zero-Risk Local Prototype</strong>
+                  <span>All responses stored securely in your local browser sandbox.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Form Element -->
+          <div class="pilot-form-wrapper">
+            <form id="inlinePilotForm" class="pilot-form" novalidate>
+              <div class="form-group">
+                <label for="fullName">Full Name <span class="required-star">*</span></label>
+                <div class="input-wrapper">
+                  <input type="text" id="fullName" name="fullName" placeholder="e.g. Eleanor Vance" required autocomplete="name">
+                </div>
+                <span class="field-error" id="fullNameError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="phoneNumber">Phone Number <span class="required-star">*</span></label>
+                <div class="input-wrapper">
+                  <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="e.g. +44 7700 900077" required autocomplete="tel">
+                </div>
+                <span class="field-error" id="phoneNumberError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address <span class="required-star">*</span></label>
+                <div class="input-wrapper">
+                  <input type="email" id="email" name="email" placeholder="e.g. eleanor@company.co.uk" required autocomplete="email">
+                </div>
+                <span class="field-error" id="emailError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="organisation">Organisation Name <span class="required-star">*</span></label>
+                <div class="input-wrapper">
+                  <input type="text" id="organisation" name="organisation" placeholder="e.g. Sadler's Wells / Barclays Global" required autocomplete="organization">
+                </div>
+                <span class="field-error" id="organisationError"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block submit-btn" id="pilotSubmitBtn">
+                <span>Submit Pilot Request</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+
+              <div class="form-status-message" id="formStatusMessage" role="status" aria-live="polite"></div>
+            </form>
+
+            <!-- Local storage record inspector toggle -->
+            <div class="localstorage-tools">
+              <button type="button" class="btn-text-inspector" id="viewStoredDataBtn">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                </svg>
+                <span>View Stored Pilot Submissions (<span id="submissionCountBadge">0</span>)</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================
+         6. FAQ SECTION
+         ==================================================== -->
+    <section class="section faq-section" id="faq">
+      <div class="container faq-container">
+        <div class="section-header text-center">
+          <span class="section-kicker">Clarifications</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">
+            Key insights into the MovingForm Method, our founder's credentials, and our dual-division model.
+          </p>
+        </div>
+
+        <div class="accordion-wrapper" id="faqAccordion">
+          <!-- FAQ 1 -->
+          <div class="accordion-item glass-panel active">
+            <button class="accordion-trigger" aria-expanded="true" aria-controls="faq-ans-1" id="faq-q-1">
+              <span class="faq-question-text">What is MovingForm?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+            <div class="accordion-content" id="faq-ans-1" role="region" aria-labelledby="faq-q-1">
+              <div class="accordion-body">
+                <p>MovingForm combines professional choreography and martial arts discipline to create performance experiences and corporate resilience programmes.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="accordion-item glass-panel">
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-ans-2" id="faq-q-2">
+              <span class="faq-question-text">What makes MovingForm different?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+            <div class="accordion-content" id="faq-ans-2" role="region" aria-labelledby="faq-q-2">
+              <div class="accordion-body">
+                <p>The company is built around the founder's unique combination of elite martial arts experience and professional dance/choreography expertise.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="accordion-item glass-panel">
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-ans-3" id="faq-q-3">
+              <span class="faq-question-text">Who can work with MovingForm?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+            <div class="accordion-content" id="faq-ans-3" role="region" aria-labelledby="faq-q-3">
+              <div class="accordion-body">
+                <p>The services are designed for theatres, cultural festivals, corporate organisations, HR teams, event organisers and creative partners.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="accordion-item glass-panel">
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-ans-4" id="faq-q-4">
+              <span class="faq-question-text">Is MovingForm only a performance company?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+            <div class="accordion-content" id="faq-ans-4" role="region" aria-labelledby="faq-q-4">
+              <div class="accordion-body">
+                <p>No. MovingForm operates through two divisions: MovingForm Productions and MovingForm Works.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="accordion-item glass-panel">
+            <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-ans-5" id="faq-q-5">
+              <span class="faq-question-text">Can programmes be customised?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+            <div class="accordion-content" id="faq-ans-5" role="region" aria-labelledby="faq-q-5">
+              <div class="accordion-body">
+                <p>Yes. Every engagement is designed according to client requirements.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ====================================================
+       7. FOOTER SECTION
+       ==================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand-column">
+          <div class="footer-brand-title">MovingForm</div>
+          <p class="footer-subtitle">
+            Combat-Choreography Productions &bull; Corporate Resilience Training
+          </p>
+          <p class="footer-bio-summary">
+            A founder-led UK enterprise fusing martial discipline and dance choreography into a world-class methodology for international stages and corporate leaders.
+          </p>
+        </div>
+
+        <div class="footer-links-column">
+          <h4 class="footer-column-heading">Navigation</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#platform">Platform</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#pricing">Market Pricing</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact-column">
+          <h4 class="footer-column-heading">Contact Information</h4>
+          <ul class="footer-contact-list">
+            <li>
+              <span class="contact-label">Headquarters:</span>
+              <span>London, United Kingdom</span>
+            </li>
+            <li>
+              <span class="contact-label">Enquiries:</span>
+              <a href="mailto:enquiries@movingforms.co.uk">enquiries@movingforms.co.uk</a>
+            </li>
+            <li>
+              <span class="contact-label">Pilots &amp; Bookings:</span>
+              <a href="mailto:pilot@movingforms.co.uk">pilot@movingforms.co.uk</a>
+            </li>
+            <li>
+              <span class="contact-label">Founder Office:</span>
+              <span>Harshil Chauhan, London HQ</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-social-column">
+          <h4 class="footer-column-heading">Connect</h4>
+          <div class="social-links-grid">
+            <a href="#footer" class="social-link" aria-label="LinkedIn Profile Placeholder">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+            <a href="#footer" class="social-link" aria-label="Instagram Profile Placeholder">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+              <span>Instagram</span>
+            </a>
+            <a href="#footer" class="social-link" aria-label="YouTube / Vimeo Placeholder">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="23 7 16 12 23 17 23 7"></polygon>
+                <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+              </svg>
+              <span>Vimeo Theatre</span>
+            </a>
+            <a href="#footer" class="social-link" aria-label="Twitter / X Placeholder">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+              </svg>
+              <span>X (Twitter)</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          &copy; <span id="currentYear">2026</span> MovingForm. All rights reserved. London, United Kingdom.
+        </div>
+        <div class="footer-legal">
+          <span>The MovingForm Method &bull; Proprietary Combat-Dance &amp; Resilience System</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ====================================================
+       REQUEST A PILOT MODAL
+       ==================================================== -->
+  <div class="modal-backdrop" id="pilotModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-dialog glass-panel">
+      <button type="button" class="modal-close" id="modalCloseBtn" aria-label="Close dialog">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="modal-header">
+        <span class="section-kicker">Founder-Led Engagement</span>
+        <h3 class="modal-title" id="modalTitle">Request a Pilot</h3>
+        <p class="modal-subtitle">
+          Submit your contact details below to initiate a private consultation or bespoke corporate demonstration.
+        </p>
+      </div>
+
+      <form id="modalPilotForm" class="pilot-form" novalidate>
+        <div class="form-group">
+          <label for="modalFullName">Full Name <span class="required-star">*</span></label>
+          <div class="input-wrapper">
+            <input type="text" id="modalFullName" name="fullName" placeholder="e.g. Eleanor Vance" required>
+          </div>
+          <span class="field-error" id="modalFullNameError"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="modalPhoneNumber">Phone Number <span class="required-star">*</span></label>
+          <div class="input-wrapper">
+            <input type="tel" id="modalPhoneNumber" name="phoneNumber" placeholder="e.g. +44 7700 900077" required>
+          </div>
+          <span class="field-error" id="modalPhoneNumberError"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="modalEmail">Email Address <span class="required-star">*</span></label>
+          <div class="input-wrapper">
+            <input type="email" id="modalEmail" name="email" placeholder="e.g. eleanor@company.co.uk" required>
+          </div>
+          <span class="field-error" id="modalEmailError"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="modalOrganisation">Organisation Name <span class="required-star">*</span></label>
+          <div class="input-wrapper">
+            <input type="text" id="modalOrganisation" name="organisation" placeholder="e.g. Royal Opera House / HSBC Group" required>
+          </div>
+          <span class="field-error" id="modalOrganisationError"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block submit-btn" id="modalSubmitBtn">
+          <span>Submit Pilot Request</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+
+        <div class="form-status-message" id="modalFormStatusMessage" role="status" aria-live="polite"></div>
+      </form>
+    </div>
+  </div>
+
+  <!-- LocalStorage Inspector Drawer (For User & Evaluator Review) -->
+  <div class="storage-drawer" id="storageDrawer" aria-hidden="true">
+    <div class="storage-drawer-header">
+      <div class="drawer-title-area">
+        <h4>Stored Pilot Requests (localStorage)</h4>
+        <span class="drawer-badge">Key: movingform_pilot_submissions</span>
+      </div>
+      <button type="button" class="drawer-close" id="drawerCloseBtn" aria-label="Close Stored Submissions Inspector">&times;</button>
+    </div>
+    <div class="storage-drawer-body">
+      <div id="storageEmptyNotice" class="storage-empty">No submissions saved in localStorage yet. Submit the form to view real entries.</div>
+      <div id="storageRecordsList" class="storage-records-list"></div>
+    </div>
+    <div class="storage-drawer-footer">
+      <button type="button" class="btn btn-sm btn-secondary" id="clearStorageBtn">Clear Storage</button>
+      <span class="storage-footer-note">Browser-only local persistent storage</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
